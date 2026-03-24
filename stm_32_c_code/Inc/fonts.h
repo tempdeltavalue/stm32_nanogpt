@@ -20,7 +20,6 @@ typedef struct {
 } GFXfont;
 #endif
 
-// Кажемо іншим файлам, що цей шрифт Ігоря існує
 extern const GFXfont cambriaUkr8;
 
 #endif
