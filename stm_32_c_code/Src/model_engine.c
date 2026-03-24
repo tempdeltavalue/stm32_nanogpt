@@ -20,7 +20,6 @@ typedef enum {
     OUT_BOTH
 } OutputTarget_t;
 
-// Встанови тут бажаний режим
 static OutputTarget_t current_output = OUT_BOTH;
 
 // --- СТАН ЕКРАНУ ---
@@ -76,7 +75,6 @@ static void TFT_PrintToken(const char* str) {
     }
 }
 
-// 🔥 ГОЛОВНА ФУНКЦІЯ ВИВОДУ (використовує енамку)
 static void Smart_Print(const char* str) {
     switch (current_output) {
         case OUT_USB_ONLY:
