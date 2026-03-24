@@ -29,7 +29,6 @@ void ST7735_Init(void);
 void ST7735_FillScreen(uint16_t color);
 void ST7735_DrawPixel(uint16_t x, uint16_t y, uint16_t color);
 
-// Зверни увагу: тут ТРИ кольори (додався bgcolor)
 void ST7735_DrawCharGFX(uint16_t x, uint16_t y, uint8_t c, const GFXfont *gfxFont, uint16_t color, uint16_t bgcolor);
 void ST7735_WriteStringGFX(uint16_t *cursor_x, uint16_t *cursor_y, const char* str, const GFXfont *font, uint16_t color, uint16_t bgcolor);
 
